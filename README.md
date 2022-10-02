@@ -1,6 +1,6 @@
-# HACTOBERFEST_2022
+# HACKTOBERFEST_2022
 
-# Feel free to Contribute here for HACTOBERFEST WITH YOUR AMAZING WORKS
+# Feel free to Contribute here for HACKTOBERFEST WITH YOUR AMAZING WORKS
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 
