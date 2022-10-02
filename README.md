@@ -1,21 +1,53 @@
-# Hacktoberfest2022
-Just don't copy paste
+# HACTOBERFEST_2022
+
+# Feel free to Contribute here for HACTOBERFEST WITH YOUR AMAZING WORKS
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+![192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6](https://user-images.githubusercontent.com/85143283/193421745-be806853-f40c-44f3-9bed-fb083615635b.png)
 
 
-## Contribution Guide for HactoberFest
-- Fork this repository by clicking on the top right fork button in this page
-- Click on code and copy the repo https link
-- Clone this fork using :
-    git clone https://github.com/OtacilioN/awesome-hacktoberfest-2022/
-    (this is the link which you copied)
-- Open directory using 
-      cd repo-name (repo name is awesome-hactoberfest-2022)
-- Create a branch using :
-    git checkout -b branch-name
-- Make changes in the local environment
-- Commit using :
-    git commit -m "Message to be written while commit"
--push The repo using : 
-    git push -u origin branch-name
--Create a new pull request from your forked repo.
-- Wait for its review and merge approval.
+---------------------------------------------------------
+---------------------------------------------------------
+
+![1_IelAxduwS_YtpsrlRe1d0Q](https://user-images.githubusercontent.com/85143283/193421590-0246320e-5cb2-4363-b827-812b83fa3029.png)
+
+
+
+# Steps to Contribute in repository :
+
+## Getting Started 🤩🤗:
+
+- Fork this repo (button on top)
+- Clone on your local machine
+
+```
+git clone https://github.com/your-username/Hacktoberfest2022.git
+
+```
+- Navigate to project directory.
+```
+cd Hacktoberfest2022
+```
+
+- Create a new Branch
+
+```markdown
+git checkout -b my-new-branch
+```
+- Add your contribution
+```
+git add .
+```
+- Commit your changes.
+
+```markdown
+git commit -m "Relevant message"
+```
+- Then push 
+```
+git push origin my-new-branch
+```
+
+
+- Create a new pull request from your forked repository
