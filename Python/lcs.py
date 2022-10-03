@@ -1,3 +1,4 @@
+#  LONGEST COMMON SUBSEQUENCE USING DYNAMIC PROGRAMMING 
 def lcs(i,j,s1,s2,dp):
     if i<0 or j<0:
         return 0
@@ -15,3 +16,4 @@ def getLengthOfLCS(str1, str2):
 s1=input()
 s2=input()
 print(getLengthOfLCS(s1,s2))
+
