@@ -7,12 +7,12 @@
 
 /*
     Initialize..
-     limit = n
+     limit = a-b
 
-    a. Create a dummy array of size n 
+    a. Create a dummy array of size b-a 
     b.fill each value of dummy array as FALSE
 
-   c. traverse for i =2 to i<=n 
+   c. traverse for i =2 to i<=b 
     if(dummyarr[i]== FALSE){
         travers j = i*i to j<=n
             dummyarr[j] = TRUE;
@@ -23,34 +23,34 @@
     for dummyarr[i] == FALSE;
 */
 
-
+// Find Prime number in range a to b
  
- #include <iostream>
- #include<vector>
-  using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
- void primesieve(int n){
-     int prime[n]={0};
-     for(int i=2; i<=n; i++)
-     {
-         if(prime[i]==0){
-             for(int j=i*i; j<=n; j+=i){
-                 prime[j]=1;
-             }
-         }
-     }
+void sieve(int a, int b){
+    vector<bool> arr(b,true);
+    
+    for(int i=2; i*i<=b; i++) //i*i=n is equal to i=sqrt(n)
+    {
+        for(int j=2*i; j<b; j+=i){
+            if(arr[j]==true){
+                arr[j]=false;
+            }
+        }
+    }
+    
+    for(int i=2; i<b; i++){
+        if(arr[i]==true)
+        cout<<i<<endl;
+    }
+}
 
-     for(int i=2;i<=n; i++){
-         if(prime[i]==0){
-             cout<<i<<" ";
-         }
-     }
-     cout<<endl;
- }
-int main()
-{
-    int n;
-    cin>>n;
-    primesieve(n);
+int main() {
+    int a, b;
+    cin>>a>>b;
+    sieve(a,b);
+    
+
     return 0;
 }
